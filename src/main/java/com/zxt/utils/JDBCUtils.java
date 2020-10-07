@@ -11,7 +11,7 @@ import java.sql.Statement;
 @Slf4j
 public class JDBCUtils {
     private static String driver = "oracle.jdbc.OracleDriver";
-    private static String url = "jdbc:oracle:thin:@localhost:1520:orcl";
+    private static String url = "jdbc:oracle:thin:@localhost:1521:orcl";
     private static String user = "scott";
     private static String password = "admin";
 
